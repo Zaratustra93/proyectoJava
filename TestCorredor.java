@@ -7,9 +7,10 @@ public class TestCorredor {
 	public void view()
 	{
 		
-		System.out.println(" 1.Inscribir corredor(máximo 3 corredores Comenzar.) \n"
-				+ " 2Llegada de corredor.\n 3Finalizar carrera.\n 4 Ver Corredores\n 5.Estado de la carrera\n 6.Resultado carrera \n 7.Volver al menú principal"
-				+ "\n 8.Salir.");
+		System.out.println(" 1.Inscribir corredor(máximo 3 corredores ) \n"
+				+ " 2.Comenzar.\n 3.Llegada de corredor\n 4.Finalizar carrera:"
+				+ "\n 5.Ver"
+				+"\n 6.Salir");
 		
 	}
 	
@@ -40,12 +41,10 @@ public class TestCorredor {
 			break;
 		
 		case 5:
-			break;
-		case 6:
 			
-		System.out.println("Fin de la aplicacion");	
+			System.out.println("");
+			
 			break;
-		
 	
 		default:
 			
@@ -56,9 +55,10 @@ public class TestCorredor {
 		
 		}
 		}
-		while(opciones<6);
+		while(opciones<8);
 		
 		
 	}
 	
 }
+
