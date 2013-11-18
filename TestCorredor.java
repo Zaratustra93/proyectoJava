@@ -42,18 +42,11 @@ public class TestCorredor {
 		case 5:
 			break;
 		case 6:
+			
+		System.out.println("Fin de la aplicacion");	
 			break;
 		
-		case 7:
-			
-			break;
-		
-		case 8:
-			
-			
-			System.out.println("Fin de la aplicacion");
-			
-			break;
+	
 		default:
 			
 			System.out.println("No hay mas opciones en el menu.");
@@ -63,7 +56,7 @@ public class TestCorredor {
 		
 		}
 		}
-		while(opciones<8);
+		while(opciones<6);
 		
 		
 	}
