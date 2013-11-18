@@ -55,7 +55,7 @@ public class TestCorredor {
 		
 		}
 		}
-		while(opciones<8);
+		while(opciones<5);
 		
 		
 	}
