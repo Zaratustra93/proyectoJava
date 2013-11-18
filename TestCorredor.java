@@ -42,7 +42,13 @@ public class TestCorredor {
 		
 		case 5:
 			
-			System.out.println("");
+		
+			
+			break;
+		
+		case 6:
+				
+			System.out.println("Fin de programa!");
 			
 			break;
 	
@@ -55,10 +61,11 @@ public class TestCorredor {
 		
 		}
 		}
-		while(opciones<5);
+		while(opciones<6);
 		
 		
 	}
 	
 }
+
 
