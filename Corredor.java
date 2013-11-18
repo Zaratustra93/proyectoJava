@@ -5,7 +5,12 @@ public class Corredor {
 	private String nombre;
 	private String fecha_de_nacimiento;
 	
-	
+	/*Constructor vacío*/
+	public Corredor (){
+		sexo = "Desconocido";
+		nombre = "Desconocido";
+		fecha_de_nacimiento = "Desconocido";
+	}
 	
 	public Corredor(String sexo,String nombre,String fecha_de_nacimiento)
 	{
